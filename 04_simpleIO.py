@@ -1,4 +1,5 @@
 #簡單輸入輸出
+import time
 
 hero = input("輸入姓名")
 sleep(1)
