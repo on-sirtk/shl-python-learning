@@ -2,5 +2,5 @@
 import time
 
 hero = input("輸入姓名")
-sleep(1)
+time.sleep(1)
 print(hero+"是大笨蛋")
