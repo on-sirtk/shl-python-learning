@@ -1,26 +1,4 @@
-#Num2 必須大於 Num1才能計算LCM
-def lcm(num1, num2):  
-  greater = num2 
-  while(True):  
-       if((greater % num1 == 0) and (greater % num2 == 0)):  
-           lcm = greater  
-           break  
-       greater += 1  
-  print(lcm)  
-
-#檢查正整數
-def check(number):
-  try:
-    val = int(number)
-    if val < 0:  # if not a positive int print message and ask for input again
-      print("必須正數")
-      return False
-  except ValueError:
-      print("必須整數")
-      return False
-  return True   
-
-
+import lcm
 
 num1 = input("第一個數?")
 num2 = input("第二個數?")
