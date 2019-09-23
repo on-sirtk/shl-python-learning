@@ -3,5 +3,5 @@
 
 x=3
 if (x=3) :
-  print("x="+str(x))
+  print("x的數值是"+str(x))
   
